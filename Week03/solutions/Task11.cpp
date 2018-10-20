@@ -19,6 +19,5 @@ int main()
 	}
 	cout << symmetric << endl;
 
-	system("pause");
 	return 0;
 }

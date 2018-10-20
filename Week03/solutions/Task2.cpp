@@ -19,6 +19,5 @@ int main()
 		cout << c << " is not a digit." << endl;
 	}
 
-	system("pause");
 	return 0;
 }

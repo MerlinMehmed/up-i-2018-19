@@ -17,6 +17,5 @@ int main()
 		cout << "Point is outside the circle." << endl;
 	}
 
-	system("pause");
 	return 0;
 }

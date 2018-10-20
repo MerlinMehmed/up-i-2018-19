@@ -27,6 +27,5 @@ int main()
 	default: cout << "Not a digit" << endl; 
 	}
 
-	system("pause");
 	return 0;
 }

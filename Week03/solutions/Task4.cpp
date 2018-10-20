@@ -29,6 +29,5 @@ int main()
 	default: cout << "Not a month number" << endl; 
 	}
 
-	system("pause");
 	return 0;
 }

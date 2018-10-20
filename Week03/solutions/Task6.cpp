@@ -11,6 +11,11 @@ int main()
 	cout << "Enter a number: ";
 	cin >> number;
 
+	if (number < 0)
+	{
+		number *= -1;
+	}
+	
 	int sum = 0;
 	while (number > 0)
 	{
