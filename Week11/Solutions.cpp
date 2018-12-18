@@ -40,12 +40,8 @@ bool higherThan2(double a)
 int sumRecursive(int n)
 {
 	if (n <= 1)
-	{
 		return 1;
-	}
-	else {
-		return n + sumRecursive(n-1);
-	}
+	return n + sumRecursive(n-1);
 }
 
 long long factorial(int n)
@@ -58,13 +54,8 @@ long long factorial(int n)
 int countNumbers(int n)
 {
 	if (n / 10 == 0)
-	{
 		return 1;
-	}
-	else
-	{
-		return 1 + countNumbers(n / 10);
-	}
+	return 1 + countNumbers(n / 10);
 }
 
 
